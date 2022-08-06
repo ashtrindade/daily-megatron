@@ -1,4 +1,4 @@
-<p align="center"><img src="./media/twitter-api-logo.png"></p>
+<p align="center"><img src="./media/twitter-api-logo.png" width="100"></p>
 <p align="center">
 <a href="https://twitter.com/tododiamegatron"><img alt="Twitter Follow" src="https://img.shields.io/badge/Twitter-%40tododiamegatron-blue"></a>
 <a href="https://github.com/ashtrindade/daily-megatron/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/apm/l/atomic-design-ui.svg?"></a>
@@ -16,7 +16,7 @@ A bot that tweets a unique video every single day.
 - A Twitter Developer Account
 - These packages:
 
-    - `cron ` to schedule the tweets
+    - `cron` to schedule the tweets
     - `twitter-api-v2` to communicate with Twitter API
     - `dotenv` to securely save your keys
 
