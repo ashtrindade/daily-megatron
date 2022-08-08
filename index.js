@@ -28,6 +28,6 @@ const job = new CronJob('00 24 11 * * 0-6', () => {
         console.log(err)
     }
    
-})
+},'America/Sao_Paulo')
 
 job.start()
