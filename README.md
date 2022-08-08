@@ -11,20 +11,27 @@
 # Daily Megatron
 A Twitter Bot that sends a unique video every single day. It was made as a meme bus also to test the Twitter API.
 
----
+
 ## To run this project you will need:
 
-- A Twitter Developer Account
+- A Twitter Developer Account.
 - These packages:
 
-    - `cron` to schedule the tweets
-    - `twitter-api-v2` to communicate with Twitter API
-    - `dotenv` to securely save your keys
+    - `cron` to schedule the tweets;
+    - `twitter-api-v2` to communicate with Twitter API;
+    - `dotenv` to securely save your keys;
 
-**OBS:**
-If you intend to make media upload using this API you will need Elevated Access.
-- https://developer.twitter.com/en/portal/products/elevated
+- Here are some <a href="https://github.com/PLhery/node-twitter-api-v2/blob/master/doc/examples.md">examples.</a>
+- **Be aware,** If you intend to make media upload using this API you will need <a href="https://developer.twitter.com/en/portal/products/elevated">Elevated Access.</a>
 
----
-### License
-- <a href="https://github.com/ashtrindade/daily-megatron/blob/main/LICENSE">MIT License</a>
+
+## License
+**MIT License**
+
+Copyright (c) 2022 Ash Trindade
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
