@@ -9,8 +9,9 @@
 </p>
 
 # Daily Megatron
-A bot that tweets a unique video every single day.
+A Twitter Bot that sends a unique video every single day. It was made as a meme bus also to test the Twitter API.
 
+---
 ## To run this project you will need:
 
 - A Twitter Developer Account
@@ -23,35 +24,7 @@ A bot that tweets a unique video every single day.
 **OBS:**
 If you intend to make media upload using this API you will need Elevated Access.
 - https://developer.twitter.com/en/portal/products/elevated
+
 ---
-## Let's work
-
-**Install the packages:**
-```
-npm i cron twitter-api-v2 dotenv
-```
-
-## How to use Cron
-**The code:**
-```
-const CronJob = require('cron').CronJob
-
-const job = new CronJob('00 30 11 * * 2-6', function(){
-	console.log('Runing at 11:30 | Mon-Fri')
-    // Runs every weekday (Monday through Friday)
-    // at 11:30:00 AM. It does not run on Saturday
-    // or Sunday.
-});
-
-job.start()
-```
-
-**Cron Ranges**
-```
-- Seconds: 0-59
-- Minutes: 0-59
-- Hours: 0-23
-- Day of Month: 1-31
-- Months: 0-11 (Jan-Dec)
-- Day of Week: 0-6 (Sun-Sat)
-```
+### License
+- <a href="https://github.com/ashtrindade/daily-megatron/blob/main/LICENSE">MIT License</a>
